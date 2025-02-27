@@ -13,3 +13,8 @@
 -> know run a function using the harr-cascade var, detectMultiScale( <image> , <scaleFactor (compression amount)> , <minNeighbours (least number of faces to look along with the first detected face)> , <minSize (min size of a face)>)
 
 
+Main flow of the program would be as follows:
+load the known faces from the folder and then convert them into embeddings
+
+then one by one pick up all images from the media folder then extract faces and convert them into embeddings
+if there are no face matches we delete the file else we keep it.

@@ -2,3 +2,5 @@
 myenv
 media/*
 models/*
+.ipynb_checkpoints/
+__pycache__/
